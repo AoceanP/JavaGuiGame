@@ -1,0 +1,63 @@
+#top-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 5 0 5 0; /* 🔽 Reduce top & bottom spacing */
+}
+
+
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 45px;
+    -fx-background-color: linear-gradient(#ffffff, #dceeff);
+    -fx-border-color: #9cbbe5;
+    -fx-border-width: 1px;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-padding: 2 8 2 8; /* 🔽 Tighter internal spacing */
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: linear-gradient(#e4f1ff, #c6e0f9);
+}
+
+/* Scene background */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f0f8ff, #d6eaff);
+}
+
+/* Optional: give welcome label some style */
+#welcome-message {
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 5;
+}
+
+/* Center layout for welcome box */
+.welcome-dialog-box {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+/* Start button styling */
+.welcome-dialog-box .button {
+    -fx-font-weight: bold;
+    -fx-border-color: #A0A0A0;
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #DCEEFF);
+    -fx-padding: 4 12 4 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 1, 0, 1, 1);
+}
+.game-over-dialog .button {
+    -fx-font-weight: bold;
+    -fx-border-color: #A0A0A0;
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #DCEEFF);
+    -fx-pref-width: 100px;     /* ⬅️ Wider */
+    -fx-pref-height: 36px;     /* ⬅️ Shorter */
+    -fx-padding: 2 8 2 8;       /* ⬅️ Less padding inside */
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 1, 0, 1, 1);
+}

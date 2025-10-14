@@ -1,0 +1,101 @@
+.popup-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00;
+    -fx-alignment: center;
+    -fx-padding: 0 0 10 0;
+}
+
+.popup-stat {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+.popup-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 8 12;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.popup-button:hover {
+    -fx-background-color: #555;
+    -fx-border-color: #ffcc00;
+    -fx-text-fill: #ffcc00;
+}
+
+.popup-container {
+    -fx-background-color: #2e2e2e; /* dark grey */
+    -fx-background-radius: 12;
+    -fx-padding: 20;
+}
+
+.shop-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: #ffffff; /* white */
+    -fx-font-weight: bold;
+}
+
+.shop-info,
+.shop-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #cccccc; /* light gray */
+}
+
+.shop-title, .shop-info, .shop-label {
+    -fx-effect: dropshadow(gaussian, black, 2, 0.5, 1, 1);
+}
+
+.dialog-pane.simple-popup {
+    -fx-background-color: white;
+    -fx-font-size: 18px;
+    -fx-font-family: "Verdana";
+    -fx-alignment: center;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: black;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-wrap-text: true;
+}
+
+/* Center the button bar */
+.dialog-pane .button-bar {
+    -fx-alignment: center;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 8 24;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 4, 0, 0, 1);
+    -fx-alignment: center;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #eaeaea;
+}
+
+
